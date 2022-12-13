@@ -1,11 +1,9 @@
 import styled from "styled-components";
-
 interface TitleTextProps {
   size?: "xl" | "l" | "m" | "s" | "xs";
   color?: "title" | "subtitle" | "text";
   weight?: string | number;
 }
-
 interface RegularTextProps {
   size?: "l" | "m" | "s";
   color?: "text" | "subtitle" | "label";

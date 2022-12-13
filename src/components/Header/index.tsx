@@ -3,7 +3,7 @@ import {
     HeaderButtonsContainer,
     HeaderContainer,
 } from "./styles";
-import coffeeLogoImg from "../../assets/coffe-delivery-logo.svg";
+import coffeeLogoImg from "../../assets/coffee-delivery-logo.svg";
 import { MapPin, ShoppingCart } from "phosphor-react";
 import { NavLink } from "react-router-dom";
 
@@ -17,10 +17,9 @@ export function Header() {
                 </NavLink>
 
                 <HeaderButtonsContainer>
-
                     <HeaderButton variant="purple">
                         <MapPin size={20} weight="fill" />
-                        Porto Alegre, RS
+                        Recife, PE
                     </HeaderButton>
 
                     <NavLink to="/completeOrder">
@@ -29,7 +28,6 @@ export function Header() {
                             <ShoppingCart size={20} weight="fill" />
                         </HeaderButton>
                     </NavLink>
-
                 </HeaderButtonsContainer>
             </div>
         </HeaderContainer>
